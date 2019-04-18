@@ -32,6 +32,7 @@ dependencies {
 
 	compile group: 'org.quartz-scheduler', name: 'quartz', version: '2.3.0'
 	compile group: 'org.quartz-scheduler', name: 'quartz-jobs', version: '2.3.0'
+	compile group: 'com.h2database', name : 'h2', version: '1.4.199'
 
 	compile group: 'org.springframework', name: 'spring-context-support', version: '4.3.12.RELEASE'
     compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '1.5.8.RELEASE'
